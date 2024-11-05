@@ -33,7 +33,7 @@ def cadastrar_novo_restaurante():
     nome_do_restaurante = input('Digite o nome do restaurante que deseja cadastrar: ')
     restaurantes.append(nome_do_restaurante)
     print(f'O restaurante {nome_do_restaurante} foi cadastrado com sucesso!')
-    input('\nDigite uma tecla para voltar ao MENU PRINCIPAL  ')
+    input('\nDigite uma tecla para voltar ao menu principal  ')
     main()
 
 def listar_restaurantes():
@@ -43,7 +43,7 @@ def listar_restaurantes():
     for restaurante in restaurantes:
         print(f'.{restaurante}')
 
-    input('\nDigite uma tecla para voltar ao MENU PRINCIPAL  ')
+    input('\nDigite uma tecla para voltar ao menu principal  ')
     main()
 
 def escolher_opcao():
@@ -70,4 +70,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-                 
