@@ -37,3 +37,12 @@ if usuario in usario_correto and senha == senha_correta:
     print("******Login bem sucessido******")
 else:
     print("Dados inválidos. Tente novamente !!!")
+
+    numero = -1
+for i in range(3):  # Supondo um número máximo de tentativas (3) arbitrário
+    numero = int(input("Digite um número positivo: "))
+    print(i)
+    if numero > 0:
+        break
+
+print("Você digitou:", numero)
